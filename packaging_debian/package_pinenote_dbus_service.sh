@@ -9,5 +9,5 @@ debcargo package \
         --config "${pwd_save}/"pns_debcargo.toml \
         pinenote_dbus_service
 
-cd rust-pinenote-dbus-service*/
-dpkg-buildpackage -us -uc
+#cd rust-pinenote-dbus-service*/
+#dpkg-buildpackage -us -uc

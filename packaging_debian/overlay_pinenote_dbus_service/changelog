@@ -1,8 +1,8 @@
 rust-pinenote-dbus-service (0.2.5) trixie; urgency=medium
 
-  *
+  * Bug fix
 
- -- Maximilian Weigand (PineNote Signing Key 4) <mweigand@mweigand.net>  Sun, 16 Feb 2025 11:25:05 +0200
+ -- Michael Moerz <michael@natoka.de>  Sun, 16 Feb 2025 11:25:05 +0200
 
 rust-pinenote-dbus-service (0.2.4) trixie; urgency=medium
 
