@@ -65,7 +65,7 @@ pub fn set_offline_screen(new_content: &Vec<u8>) {
 
         let mut payload = PayloadEbc2 {
             info1: true,
-            ptr_screen_content: str2.as_ptr(),
+            ptr_screen_content: str2.as_ptr() as *const u8,
         };
 
         let ebc_device = "/dev/dri/by-path/platform-fdec0000.ebc-card";
