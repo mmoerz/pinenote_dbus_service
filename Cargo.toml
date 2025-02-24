@@ -4,11 +4,11 @@ version = "0.2.5-1"
 edition = "2021"
 license = "Apache-2.0/MIT"
 authors = [
-	"Maximilian Weigand <mweigand@mweigand.net>",
+	"Michael Moerz <michael@natoka.de>",
 	"PineNote Community"
 ]
 description = "A DBus service for the Pine64 Pinenote"
-repository = "https://github.com/PNDeb/pinenote_dbus_service"
+repository = "https://github.com/mmoerz/pinenote_dbus_service"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -30,7 +30,7 @@ nix = { version = ">=0.27.0", features=["ioctl"] }
 
 # for Debian packaging (cargo deb -v)
 [package.metadata.deb]
-maintainer = "Maximilian Weigand <mweigand@mweigand.net>"
+maintainer = "Michael Moerz <michael@natoka.de>"
 maintainer-scripts = "debian/"
 systemd-units = { start = true, enable=true, unit-scripts= "systemd_units/"}
 assets = [

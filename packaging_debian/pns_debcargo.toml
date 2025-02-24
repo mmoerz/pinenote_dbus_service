@@ -2,4 +2,4 @@ overlay = "./overlay_pinenote_dbus_service"
 
 [source]
 section = "rust"
-vcs_git = "https://github.com/mmoerz/pinenote_dbus_service"
+vcs_git = "https://github.com/mxx/pinenote_dbus_service"
