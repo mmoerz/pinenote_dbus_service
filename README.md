@@ -5,9 +5,12 @@ fork by Michael Moerz
 [Hints](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
 
 `git rename origin upstream`
-`git checkout 
+`git add origin ...git`
 `git push origin HEAD:master`
 
+`git branch --set-upstream-to origin/master`
+
+[Hints2](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin)
 
 A simple DBus service that exposes various controls and settings related to the
 Pine64 Pinenote via system-wide DBus interface. The service is written in rust
