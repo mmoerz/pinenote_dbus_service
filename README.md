@@ -4,6 +4,11 @@ fork by Michael Moerz
 ## fork maintenance
 [Hints](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
 
+`git rename origin upstream`
+`git checkout 
+`git push origin HEAD:master`
+
+
 A simple DBus service that exposes various controls and settings related to the
 Pine64 Pinenote via system-wide DBus interface. The service is written in rust
 and uses the dbus-rs crate (https://github.com/diwic/dbus-rs).
