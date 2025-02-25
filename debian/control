@@ -1,0 +1,16 @@
+Source: pinenote-dbus-service
+Maintainer: Michael Moerz <michael@natoka.de>
+Section: misc
+Priority: optional
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13), cargo (>=1.84.0), librust-libc-dev (>=0.2.137), librust-nix-dev (>=0.27.0), librust-dbus-dev (>=0.9.6), librust-dbus-crossroads-dev
+Vcs-Git: https://github.com/mmoerz/pinenote_dbus_service 
+
+Package: pinenote-dbus-service
+Architecture: any
+Built-Using: ${cargo:Built-Using}
+X-Cargo-Built-Using: ${cargo:X-Cargo-Built-Using}
+Description: A DBus service for the Pine64 Pinenote
+ A DBus service that attaches to several Pine64 Pinenote specific
+ devices and makes a specific subset of their functions available 
+ on dbus.

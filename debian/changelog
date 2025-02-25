@@ -1,0 +1,5 @@
+pinenote-dbus-service (0.2.5-1) trixie; urgency=medium
+
+  * Initial release. 
+
+ -- Michael Moerz <michael@natoka.de>  Tue, 25 Feb 2025 05:58:01 -0500

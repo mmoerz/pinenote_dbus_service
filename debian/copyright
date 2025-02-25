@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/mmoerz/pinenote_dbus_service
+Upstream-Name: pinenote_dbus_service
+Upstream-Contact: Michael Moerz <michael@natoka.de>
+
+Files:
+ *
+Copyright: 2014-2018 David Henningsson diwic@ubuntu.com and other contributors
+ 	   2022, Maximilian Weigand <mweigand@mweigand.net>
+	   2025, Michael Moerz <michael@natoka.de>
+License: MIT
